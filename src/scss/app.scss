@@ -18,8 +18,11 @@ html {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: $background;
 }
-
-.main {
+.input[name="ccname"]
+  .input[name="cardnumber"]
+  .input[name="cc-exp"]
+  .input[name="cvc"]
+  .main {
   height: 100vh;
   display: flex;
   align-items: center;
